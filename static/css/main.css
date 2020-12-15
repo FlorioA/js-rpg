@@ -1,0 +1,36 @@
+body {
+  background-color: #571e27;
+}
+
+/* Display page */
+#game_page, #end_page {
+  display: none;
+}
+
+#gameover_btn, #seenext_btn {
+  display: none;
+}
+
+/* Retrait list style */
+#player_stats {
+  list-style: none;
+}
+
+/* Curseur sur stats pour infos */
+div.form-inline label {
+  cursor: help;
+}
+
+/* Hauteur du log */
+#log_card {
+  height: 50vh;
+}
+
+#equipment_card, #inventory_card {
+  height: 30vh
+}
+
+/* Boutons de compétence */
+/* .pc_btn {
+  display: none;
+} */
